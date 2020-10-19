@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>La page du méga fun</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <h1>Les copains</h1>
+
+    <p>
+      Bienvenue sur notre site !
+    </p>
+
+    
+    <h2>
+      Kevin
+    </h2>
+    
+    <img width="500"src="https://cdn.glitch.com/fb362e0b-7fe2-4e59-8f2c-baac3a53a256%2Fbigflo_et_rouelibre.png?v=1603097310375" alt="Vidéo tip top :)"> 
+    
+    
+    <h2>Julia</h2>
+    <h3>Vous souhaitez contribuer au sauvetage des pandas roux ? </h3>
+    <form action="/leads-subscribing-newsletter" method="post">
+
+<div><label for="email">E-mail :</label> <input id="email" name="subscriber_email" type="email"> </div>
+
+<div><label for="lastname">Nom :</label> <input id="lastname" name="subscriber_last_name" type="text"> </div>
+
+<div><label for="firstname">Prénom :</label> <input id="firstname" name="subscriber_first_name" type="text"> </div>
+</form>
+    <p> Remplissez ce formulaire, nous vous indiquerons la marche à suivre par mail</p>
+    <img id="char1" src="https://i.imgur.com/FmXCDNG.gif" style="display:none"/>
+    <button type="submit" onclick="document.getElementById('char1').style.display='block'">Envoyer</button>
+    
+    <h2>
+      Emilie
+    </h2>
+<p id="kevin">Kevin Rousseau</p>
+
+<button type="button" onclick="document.getElementById('kevin').style.fontSize='200px'">Click Me!</button>
+
+  </body>
+</html>
